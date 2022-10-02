@@ -2,7 +2,7 @@
 const fs = require('fs')
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (!licsense) {
+  if (!license) {
     return ``;
   } else {
     return `[![${license} license](https:img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
@@ -38,7 +38,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.licenses)}
+  ${renderLicenseBadge(data.license)}
 
   ## Table of Contents 
   * [Description](#description)
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   ${data.installation}
   ## Usage
   ${data.usage}
-  ${renderLicenseSection(data.licenses)}
+  ${renderLicenseSection(data.license)}
   ## Contributing
   ${data.contributing}
   ## Tests
