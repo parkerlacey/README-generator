@@ -21,8 +21,6 @@ You can then use the command `npm` i to download the projects npm dependencies. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
 After using the `node index.js` command, running the app is simple! You will be given a number of prompts to answer. Once you answer all of the questions the `README.md` file will be created in the `/utils` folder of the project. This process can be seen in the GIF below. From there simply copy the README from the `/utils` directory and paste it in your new project
 
 ![readme demo](assets/READMEgenerator.png)
