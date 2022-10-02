@@ -17,17 +17,22 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To run this program simply clone the repo from GitHub using the following command: <br>
+`https://github.com/parkerlacey/README-generator.git`
+
+You can then use the command `npm` i to download the projects npm dependencies. Currently, that is just Inquirer. Once you have done that you are all set! Now you can run the program with the command node `index.js`.
+
+
 
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
+After using the `node index.js` command, running the app is simple! You will be given a number of prompts to answer. Once you answer all of the questions the `README.md` file will be created in the `/utils` folder of the project. This process can be seen in the GIF below. From there simply copy the README from the `/utils` directory and paste it in your new project
+
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    ![readme demo](assets/readme-generator.jpg)
 
 ## Credits
 
